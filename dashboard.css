@@ -1,0 +1,15 @@
+img{
+    width: 800px;
+    margin-left: 300px;
+}
+.h1{
+    text-align: center;
+    color: aqua;
+    cursor: pointer;
+}
+.home{
+   background-image: url(medicare2.jpg); 
+}
+.footer{
+    background-color: aqua;
+}
