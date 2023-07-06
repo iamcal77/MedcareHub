@@ -354,22 +354,22 @@
   "doctors": [
     {
       "id": 1,
-      "name": "Dr. John Doe",
+      "name": "Dr. Blair Carson",
       "specialty": "General Physician"
     },
     {
       "id": 2,
-      "name": "Dr. Jane Smith",
+      "name": "Dr. Calvin Rotich",
       "specialty": "Cardiologist"
     },
     {
       "id": 3,
-      "name": "Dr. David Johnson",
+      "name": "Dr. Harry Woods",
       "specialty": "Pediatrician"
     },
     {
       "id": 4,
-      "name": "Dr. Sarah Davis",
+      "name": " Dr. Sammy Bett",
       "specialty": "Dermatologist"
     }
   ]
