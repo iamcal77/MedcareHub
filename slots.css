@@ -1,0 +1,25 @@
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.book-button{
+    background-color: rgb(240, 12, 12);
+    color: aliceblue;
+}
+#schedule-table{
+    background-color: rgb(114, 226, 9);
+}
+.nav-bar{
+    background-color: aqua;
+    width: 200px;
+}
+img{
+    width: 400px;
+}

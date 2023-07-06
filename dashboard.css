@@ -1,5 +1,5 @@
 img{
-    width: 800px;
+    width: 600px;
     margin-left: 300px;
 }
 .h1{
@@ -16,4 +16,7 @@ img{
     background-color: aqua;
     margin-left: 50px;
     width: 400px;
+}
+.nav-bar{
+    background-color: blue;
 }
