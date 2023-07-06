@@ -1,5 +1,5 @@
 .home {
-    background-color: rgb(28, 206, 182);
+    background-color: rgb(207, 214, 213);
     text-align: center;
 }
 .login {
@@ -51,4 +51,8 @@ border-radius: 5px;
 .signup input{
     margin-bottom: 10px;
     padding: 5px;
+}
+img{
+    width: 500px;
+    margin-left: 100px;
 }

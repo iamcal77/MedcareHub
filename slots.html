@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doctor Schedule</title>
+  <a href="dashboard.html">Back</a>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Doctor Schedule</h1>
+  <table id="schedule-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Working Hours</th>
+        <th>Patients No</th>
+        <th>Slots Booked</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Blair Carson</td>
+        <td>8:00-10:00</td>
+        <td>10</td>
+        <td>8</td>
+        <td><button class="book-button" data-id="1">Book</button></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Calvin Rotich</td>
+        <td>10:00-12:00</td>
+        <td>12</td>
+        <td>8</td>
+        <td><button class="book-button" data-id="2">Book</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Harry Wood</td>
+        <td>12:00-14:00</td>
+        <td>13</td>
+        <td>9</td>
+        <td><button class="book-button" data-id="3">Book</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Sammy Bett</td>
+        <td>14:00-16:00</td>
+        <td>14</td>
+        <td>10</td>
+        <td><button class="book-button" data-id="4">Book</button></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <script src="slots.js"></script>
+</body>
+</html>
