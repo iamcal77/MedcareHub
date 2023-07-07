@@ -15,7 +15,7 @@ The MedicareHub App provides the following features:
 
 .Display a list of doctors.
 .Click on an doctors's name to book the slot.
-
+.Confirm the booking and view confirmation on the next page .
 
 
 ## Setup
