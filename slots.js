@@ -1,7 +1,5 @@
-// Retrieve the schedule table element
 const table = document.getElementById("schedule-table");
 
-// Fetch the doctor data from the JSON file
 fetch("db.json")
   .then(response => response.json())
   .then(data => {
@@ -23,7 +21,6 @@ fetch("db.json")
     console.error("Error fetching doctor data:", error);
   });
 
-// Add event listener to the table to handle button clicks
 table.addEventListener("click", (event) => {
   if (event.target.classList.contains("book-button")) {
     const button = event.target;
@@ -40,10 +37,9 @@ table.addEventListener("click", (event) => {
       patientsNo--;
       patientsNoElement.textContent = patientsNo;
 
-      // Perform the booking request using Fetch API
       const bookingData = {
         id: id,
-        name: "Patient Name" // Replace "Patient Name" with the actual patient's name
+        name: "Patient Name"
       };
 
       fetch("http://localhost:3000/bookings", {
@@ -56,14 +52,15 @@ table.addEventListener("click", (event) => {
         .then(response => response.json())
         .then(data => {
           console.log("Booking successful:", data);
-          // Redirect the patient to the next page
-          window.location.href = "next-page.html"; // Replace "next-page.html" with your desired URL
+          window.location.href = "next-page.html";
         })
         .catch(error => {
           console.error("Booking failed:", error);
         });
     } else {
       console.log("No available slots for booking.");
+      // Display a message to the patient that all slots are full
+      alert("All slots are full. Please try again later.");
     }
   }
 });
