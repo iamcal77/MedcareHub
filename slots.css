@@ -1,25 +1,61 @@
+/* slots.css */
 
-table {
-  border-collapse: collapse;
-  width: 100%;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
 
-th, td {
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#schedule-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#schedule-table th,
+#schedule-table td {
+  border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
 }
-.book-button{
-    background-color: rgb(240, 12, 12);
-    color: aliceblue;
+
+#schedule-table th {
+  background-color: #f2f2f2;
 }
-#schedule-table{
-    background-color: rgb(114, 226, 9);
+
+.book-button {
+  padding: 6px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
-.nav-bar{
-    background-color: aqua;
-    width: 200px;
+
+.book-button:hover {
+  background-color: #555;
 }
+
+/* Additional styles can be added as per your requirement */
 img{
-    width: 400px;
+  width: 200px;
 }
