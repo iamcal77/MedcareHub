@@ -2,36 +2,35 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Medcare Hub</title>
+    <title>Exalt Buses</title>
+    <link rel="stylesheet" href="./login.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="dashboard.html">
-    
 </head>
 <body class="home">
     <header>
-        <h1>Welcome to Medcare Hub</h1>
-        <img src="logo.svg" alt="MedicareHub Logo">
+     
+        <h1><marquee behavior="" direction="">PLEASE!! LOGIN TO BOOK AN APPOINTMENT</marquee></h1>
     </header>
     <section>
         <div class="container">
-            <form class="login">
+            <form class="login" id="loginForm">
                 <label for="Name">Name:</label>
                 <input type="text" id="Name" placeholder="Name" required>
                 <br>
                 <label for="password">Password:</label>
-                <input type="password" id="password" placeholder="password" required>
+                <input type="password" id="password" placeholder="Password" required>
                 <button type="submit">Login</button>
             </form>
            
-            <form class="signup">
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="name" required>
+            <form class="signup" id="signupForm">
+                <label for="signupName">Name:</label>
+                <input type="text" id="signupName" placeholder="Name" required>
                 <br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="email" required>
+                <label for="signupEmail">Email:</label>
+                <input type="email" id="signupEmail" placeholder="Email" required>
                 <br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" placeholder="password" required>
+                <label for="signupPassword">Password:</label>
+                <input type="password" id="signupPassword" placeholder="Password" required>
                 <button type="submit">Sign Up</button>
             </form>
         </div>

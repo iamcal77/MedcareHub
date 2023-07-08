@@ -11,6 +11,36 @@
       "name": "Jane Smith",
       "email": "janesmith@example.com",
       "password": "qwerty456"
+    },
+    {
+      "name": "kenn",
+      "email": "kkkk@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "kipngenoh",
+      "email": "kipngenohaaron@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "kipngenoh",
+      "email": "kipngenohaaron@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "calvin",
+      "email": "kipngenohaaron@gmail.com",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "calvin",
+      "email": "calvinkipkirui99@gmail.com",
+      "password": "1234",
+      "id": 7
     }
   ],
   "login": [
@@ -151,178 +181,28 @@
     },
     {
       "email": "",
-      "password": "1234",
+      "password": "12344",
       "id": 28
     },
     {
       "email": "",
-      "password": "11234",
+      "password": "ooooooooooo",
       "id": 29
     },
     {
       "email": "",
-      "password": "1234",
+      "password": "password123",
       "id": 30
     },
     {
       "email": "",
-      "password": "1234",
+      "password": "PASSWORD123",
       "id": 31
     },
     {
       "email": "",
-      "password": "1234",
+      "password": "PASSWORD123",
       "id": 32
-    },
-    {
-      "email": "",
-      "password": "1234",
-      "id": 33
-    },
-    {
-      "email": "",
-      "password": "1234",
-      "id": 34
-    },
-    {
-      "email": "",
-      "password": "1234",
-      "id": 35
-    },
-    {
-      "email": "",
-      "password": "1234",
-      "id": 36
-    },
-    {
-      "email": "",
-      "password": "cdfe",
-      "id": 37
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 38
-    },
-    {
-      "email": "",
-      "password": "87755",
-      "id": 39
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 40
-    },
-    {
-      "email": "",
-      "password": "1234",
-      "id": 41
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 42
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 43
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 44
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 45
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 46
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 47
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 48
-    },
-    {
-      "email": "",
-      "password": "jkjk",
-      "id": 49
-    },
-    {
-      "email": "",
-      "password": "jkjk",
-      "id": 50
-    },
-    {
-      "email": "",
-      "password": "wwwwwwwww",
-      "id": 51
-    },
-    {
-      "email": "",
-      "password": "wwwwwwwww",
-      "id": 52
-    },
-    {
-      "email": "",
-      "password": "password123",
-      "id": 53
-    },
-    {
-      "email": "",
-      "password": "qwwe",
-      "id": 54
-    },
-    {
-      "email": "johndoe@example.com",
-      "password": "password123",
-      "id": 55
-    },
-    {
-      "email": "",
-      "password": "eeeeeeeeee",
-      "id": 56
-    },
-    {
-      "email": "",
-      "password": "passwo",
-      "id": 57
-    },
-    {
-      "email": "",
-      "password": "o",
-      "id": 58
-    },
-    {
-      "email": "",
-      "password": "swd",
-      "id": 59
-    },
-    {
-      "email": "",
-      "password": "mdekmck",
-      "id": 60
-    },
-    {
-      "email": "",
-      "password": "12345678",
-      "id": 61
-    },
-    {
-      "email": "",
-      "password": "1234",
-      "id": 62
     }
   ],
   "signup": [
@@ -333,44 +213,87 @@
       "password": "password123"
     },
     {
-      "name": "ndinet",
-      "email": "kipkirui.calvin@yahoo.com",
-      "password": "",
-      "id": 2
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "qwerty456"
     },
     {
       "name": "John Doe",
-      "email": "johndoe@example.com",
+      "email": "clarachepkirui77@gmail.com",
       "password": "",
       "id": 3
     },
     {
+      "name": "Calvin kipkirui ",
+      "email": "calvinkipkirui99@gmail.com",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "uhfuihfcuhfcu",
+      "email": "clarachepkirui77@gmail.com",
+      "password": "hjjyh",
+      "id": 5
+    },
+    {
       "name": "John Doe",
       "email": "johndoe@example.com",
       "password": "",
-      "id": 4
+      "id": 6
+    },
+    {
+      "name": "ndinet",
+      "email": "calvinkipkirui99@gmail.com",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "Jane Smith",
+      "email": "kipkirui.calvin@yahoo.com",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "Jane Smith",
+      "email": "calvinkipkirui@yahoo.com",
+      "password": "",
+      "id": 9
     }
   ],
-  "doctors": [
-    {
-      "id": 1,
-      "name": "Dr. Blair Carson",
-      "specialty": "General Physician"
-    },
-    {
-      "id": 2,
-      "name": "Dr. Calvin Rotich",
-      "specialty": "Cardiologist"
-    },
-    {
-      "id": 3,
-      "name": "Dr. Harry Woods",
-      "specialty": "Pediatrician"
-    },
-    {
-      "id": 4,
-      "name": " Dr. Sammy Bett",
-      "specialty": "Dermatologist"
-    }
-  ]
-}
+  
+    "doctors": [
+      {
+        "id": "1",
+        "name": "Blair Carson",
+        "working-hours": "8:00-10:00",
+        "patients-no": 10,
+        "slots-booked": 8
+      },
+      {
+        "id": "2",
+        "name": "Calvin Rotich",
+        "working-hours": "10:00-12:00",
+        "patients-no": 12,
+        "slots-booked": 8
+      },
+      
+      {
+        "id": "3",
+        "name": "Harry Wood",
+        "working-hours": "12:00-14:00",
+        "patients-no": 13,
+        "slots-booked": 9
+      },
+      
+      {
+        "id": "4",
+        "name": "Sammy Bett",
+        "working-hours": "14:00-16:00",
+        "patients-no": 14,
+        "slots-booked": 10
+      }
+      
+      
+    ]
+  }

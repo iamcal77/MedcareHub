@@ -2,7 +2,7 @@
 const table = document.getElementById("schedule-table");
 
 // Fetch the doctor data from the JSON file
-fetch("gb.json")
+fetch("db.json")
   .then(response => response.json())
   .then(data => {
     const doctors = data.doctors;
