@@ -1,58 +1,65 @@
-.home {
-    background-color: rgb(207, 214, 213);
-    text-align: center;
-}
-.login {
-    color: brown;
-    margin-bottom: 50px;
-    font-size: large;
-    display: flex;
-    flex-direction: column;
- 
-}
-.login input {
-    margin-bottom: 10px;
-    padding: 5px;
-}
-.login button {
-background-color: #9d58f8;
-color: aliceblue;
-padding: 10px;
-cursor: pointer;
-font-weight: bold;
-width: 100px;
-border-radius: 5px;
-}
-.signup{
-    color: brown;
-    font-size: larger;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-}
-.container{
-max-width: 450px;
-margin: 20ox auto;
-padding: 20px;
-border: 1px solid #9d58f8;
-border-radius: 5px;
-margin-left: 32%;
-}
-.signup button{
-    background-color: #9d58f8;
-    color: aliceblue;
-padding: 10px;
-cursor: pointer;
-font-weight: bold;
-width: 100px;
-border-radius: 5px;
+/* login.css */
 
-}
-.signup input{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
     margin-bottom: 10px;
-    padding: 5px;
-}
-img{
-    width: 500px;
-    margin-left: 100px;
-}
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  img{
+    width: 200px;
+  }
+  /* Additional styles can be added as per your requirement */
+  footer.footer {
+    background-color: #0df0e4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer.footer p {
+    margin: 0;}
