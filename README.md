@@ -42,7 +42,9 @@ setup install json serve by running the code: npm install -g json-server
 
 To watch the db.json server run the code: json-server --watch db.json
 
-
+### Deployment Section
+I used render.com to deploy my project
+https://medcarehub.onrender.com
 
 ## Contact Info.
 ### For more information you can reach out; Email ;calvinkipkirui99@gmail.com
